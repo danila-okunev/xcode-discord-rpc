@@ -7,7 +7,7 @@ pub mod osascript;
 use crate::{Error, Result};
 
 pub fn init_discord_ipc() -> Result<DiscordIpcClient> {
-    match DiscordIpcClient::new("1158013054898950185") {
+    match DiscordIpcClient::new("1358558314811621598") {
         Ok(client) => {
             log::debug!("Discord IPC client initialized");
             Ok(client)
